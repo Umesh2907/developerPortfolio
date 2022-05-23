@@ -23,7 +23,7 @@ export default function Navbar({ navLinks, handleDrawerTogler }) {
         style={{ backgroundColor: Theme.colors.base1 }}
       >
         <Typography variant="h5" component="h6">
-          {" < Coder />"}
+          {" < Umesh />"}
         </Typography>
         <Box sx={{ display: { xs: "none", sm: "block" } }}>
           <Box>

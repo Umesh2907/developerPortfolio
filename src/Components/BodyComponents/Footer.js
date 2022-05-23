@@ -30,7 +30,7 @@ export default function Footer() {
       </IconButton>
       <Typography variant="body1" component="h4" align="center" color="inherit">
         Developed and designed with <FavoriteIcon style={{ color: "red" }} /> by
-        Backbencher, All Rights Reserved &copy; {new Date().getFullYear()}
+        Umesh, All Rights Reserved &copy; {new Date().getFullYear()}
       </Typography>
     </Box>
   );
