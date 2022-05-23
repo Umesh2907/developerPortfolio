@@ -4,6 +4,10 @@ import { useStyles } from "./BodyStyle";
 import image from "../../images/About.jpg";
 import { CardMedia, RenderHeadingSection } from "../common/CommanComponents";
 import ScrollAnimation from "react-animate-on-scroll";
+import LanguageIcon from '@mui/icons-material/Language';
+import BubbleChartIcon from '@mui/icons-material/BubbleChart';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 export default function AboutUs() {
   const classes = useStyles();
@@ -11,22 +15,22 @@ export default function AboutUs() {
     {
       title: "Web Development",
       description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      icon: "W",
+      icon: <LanguageIcon/>,
     },
     {
       title: "Graphic Design",
       description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      icon: "G",
+      icon: <BubbleChartIcon/>,
     },
     {
       title: "Mobile Apps",
       description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      icon: "M",
+      icon: <PhoneIphoneIcon/>,
     },
     {
       title: "Marketing",
       description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-      icon: "M",
+      icon: <AcUnitIcon/>,
     },
   ];
   return (

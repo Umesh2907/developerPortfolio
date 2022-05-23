@@ -67,7 +67,7 @@ export const CardMedia = ({ Label, Desc, Icon, key }) => {
   return (
     <Grid container key={key} style={{ marginTop: "10px" }}>
       <Grid item xs={3} className={classes.AvtarCont}>
-        <Avatar>{Icon}</Avatar>
+        <Avatar className={classes.avatar}>{Icon}</Avatar>
       </Grid>
       <Grid item xs={9} className={classes.MediaText}>
         <Typography variant="body1" component="h6">

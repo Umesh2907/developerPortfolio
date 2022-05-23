@@ -33,6 +33,10 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
   },
+  avatar: {
+    backgroundColor:Theme.colors.primary,
+    color:Theme.colors.base2
+  },
   MediaText: {
     color: Theme.colors.base2,
   },
