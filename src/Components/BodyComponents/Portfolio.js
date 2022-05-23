@@ -8,8 +8,7 @@ import image3 from "../../images/5-4.jpg";
 import image4 from "../../images/5-6.jpg";
 import image5 from "../../images/5-8.jpg";
 import image6 from "../../images/5-9.jpg";
-import ScrollAnimation from "react-animate-on-scroll"
-
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Portfolio() {
   const classes = useStyles();
@@ -43,25 +42,27 @@ export default function Portfolio() {
       </Grid>
       {/* image */}
       <ScrollAnimation animateIn="fadeIn">
-      <Container maxWidth="xl">
-        <Grid container spacing={2}>
-          {portfolioData.map((item, i) => (
-            <Grid item xs={6} sm={6} lg={3} key={i}>
-              <Box className={classes.imageContainer}>
-                <img
-                  src={item.url}
-                  alt={item.title}
-                  className={classes.resposiveImg}
-                />
-                <Box className={classes.imageOverlay}>
-                    <Typography className={classes.overlayTitle}>{item.title}</Typography>
+        <Container maxWidth="xl">
+          <Grid container spacing={2}>
+            {portfolioData.map((item, i) => (
+              <Grid item xs={6} sm={6} lg={3} key={i}>
+                <Box className={classes.imageContainer}>
+                  <img
+                    src={item.url}
+                    alt={item.title}
+                    className={classes.resposiveImg}
+                  />
+                  <Box className={classes.imageOverlay}>
+                    <Typography className={classes.overlayTitle}>
+                      {item.title}
+                    </Typography>
                     <Button variant="contained">Visit</Button>
+                  </Box>
                 </Box>
-              </Box>
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
+              </Grid>
+            ))}
+          </Grid>
+        </Container>
       </ScrollAnimation>
     </Box>
   );

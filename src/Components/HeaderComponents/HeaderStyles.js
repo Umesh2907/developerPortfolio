@@ -97,7 +97,7 @@ export const useStyles = makeStyles((theme) => ({
     height: "100vh",
     backgroundColor: Theme.colors.primary2,
   },
-  listItem:{
-    color:Theme.colors.base2
-  }
+  listItem: {
+    color: Theme.colors.base2,
+  },
 }));

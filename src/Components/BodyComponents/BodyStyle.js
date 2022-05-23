@@ -68,9 +68,6 @@ export const useStyles = makeStyles((theme) => ({
   submitBtn: {
     backgroundColor: Theme.colors.primary,
     color: Theme.colors.base2,
-    "&hover": {
-      backgroundColor: Theme.colors.primary2,
-    },
   },
   //footer style
   footerContainer: {
