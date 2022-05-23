@@ -34,8 +34,8 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   avatar: {
-    backgroundColor:Theme.colors.primary,
-    color:Theme.colors.base2
+    backgroundColor: Theme.colors.primary,
+    color: Theme.colors.base2,
   },
   MediaText: {
     color: Theme.colors.base2,
@@ -73,7 +73,6 @@ export const useStyles = makeStyles((theme) => ({
     backgroundColor: Theme.colors.primary,
     color: Theme.colors.base2,
   },
-  //footer style
   footerContainer: {
     backgroundColor: Theme.colors.primary2,
     color: Theme.colors.base2,

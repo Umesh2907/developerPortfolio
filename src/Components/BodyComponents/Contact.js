@@ -19,7 +19,7 @@ export default function Contact() {
 
   const handleChange = ({ target }) => {
     const { data, errors } = state;
-    //setting errors
+
     target.value.length <= 3
       ? (errors[target.name] = `${target.name} at least have 3 letters`)
       : (errors[target.name] = "");

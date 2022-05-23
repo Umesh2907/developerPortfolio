@@ -8,7 +8,6 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import { useStyles } from "./HeaderStyles";
-// import { Hidden } from "@material-ui/core";
 import { MenuOpenRounded } from "@material-ui/icons";
 import Link from "react-scroll/modules/components/Link";
 import { Theme } from "../Theme";

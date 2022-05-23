@@ -28,7 +28,6 @@ export default function HeaderComponets() {
         navLinks={navLinks}
         handleDrawerTogler={handleDrawerTogler}
       />
-
       <Box className={classes.HeaderContainer}>
         <Typography variant="h3" component="h4" className={classes.headerTitle}>
           I'm a <span style={{ padding: "5px" }}></span>

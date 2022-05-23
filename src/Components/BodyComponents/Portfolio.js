@@ -23,7 +23,6 @@ export default function Portfolio() {
   ];
   return (
     <Box className={classes.sectionDark} id="Portfolio">
-      {/* header */}
       <Grid
         container
         style={{
@@ -40,7 +39,6 @@ export default function Portfolio() {
           })}
         </Grid>
       </Grid>
-      {/* image */}
       <ScrollAnimation animateIn="fadeIn">
         <Container maxWidth="xl">
           <Grid container spacing={2}>

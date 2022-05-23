@@ -71,22 +71,6 @@ export const useStyles = makeStyles((theme) => ({
     lineHeight: "50px",
     position: "absolute",
     left: "95px",
-    animationName: "upDown",
-    animationDuration: "1s",
-    animationIterationCount: "infinite",
-  },
-  //create Animation:-
-  "@global": {
-    "@keyframes upDown": {
-      0: {
-        paddingTop: "0px",
-        transform: "scale(0)",
-      },
-      100: {
-        paddingTop: "10px",
-        transform: "scale(1)",
-      },
-    },
   },
   drawer: {
     width: "250px",

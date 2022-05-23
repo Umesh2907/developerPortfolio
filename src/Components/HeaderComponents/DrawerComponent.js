@@ -16,7 +16,7 @@ export default function DrawerComponent({
       className={classes.drawer}
     >
       <Box className={classes.drawerContainer}>
-        <List style={{paddingTop:"30px"}}>
+        <List style={{ paddingTop: "30px" }}>
           {navLinks.map((item, i) => (
             <ListItem key={i} className={classes.listItem}>
               <ListItemText>{item.label}</ListItemText>
